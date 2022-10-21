@@ -1,6 +1,6 @@
 # Read-from-CSV
 
-## AIM:
+## Aim:
 To write a program for reading a csv file.
 
 ## ALGORITHM:
@@ -22,6 +22,10 @@ Display the number of rows and columns of the file using len() and axes() method
 
 ## PROGRAM:
 ```python
+'''
+#Program for reading a csv file.
+#Developed by: Siva Chandran R
+#RegisterNumber: 22005531
 import pandas as pd
 df = pd.read_csv('nba.csv')
 print(df.head(10))
